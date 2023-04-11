@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link href="food.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <P>Enjoy your Food. <br>Make your end of the day <br><span class="one">Happier</span></P>
+    <div class="box">
+        <div class="txt1">Al Faham  Chicken:<br>The Gulf Sensation Taking Over Southern India</div>
+        <div >
+            <img class="img" src="alfaham.jpg">
+        </div>
+        <p class="txt2">Al Faham comes from the Arabic word 'Fahum' which means coal. The dish, simply put, is barbecued chicken that's marinated in Arabian spices and char grilled over coal or in an oven.<span id="first">...</span><span id="second"> This dish originated in the Middle East but due to the large diaspora of Indians working there, it has slowly made its entrance into Indian restaurants, and is very popular especially in Kerala and Mangalore city. Bone-in chicken pieces twice-marinated in a distinct Arabian spice mix termed Bezar for a minimum of three hours is then barbequed to create this flavourful and delectable dish, suited for a perfect weeknight dinner date or a friends night out. Paired with mint chutney, pickled onions and garlic aioli and served with paper-thin roomali rotis, this dish is the one to seek out at all times in any restaurant or bistro that would have it on its menu.</span></p>
+       <button onclick="btn()" id="mybtn">read more</button>
+    </div>
+    <div class="other-div"></div>
+    <div class="box2">
+        <p class="txt3">The Burger:<br> Hamburger Or Simply Burger</p>
+        <div>
+            <img class="img2" src="burger.jpg">
+        </div>
+        <p class="txt4">The term burger can also be applied to the meat patty on its own, especially in the United Kingdom, where the term patty is rarely used or can even refer to ground beef.<span id="firsts">...</span><span id="seconds"> Since the term hamburger usually implies beef, for clarity burger may be prefixed with the type of meat or meat substitute used, as in beef burger, turkey burger, bison burger, portobello burger, or veggie burger. In Australia and New Zealand, a piece of chicken breast on a bun is known as a chicken burger, which would generally not be considered to be a burger in the United States; Americans would generally call it a chicken sandwich, but in Australian English and New Zealand English a sandwich requires sliced bread (not a bun), so it would not be considered a sandwich.</span></p>
+        <button onclick="btnn()" id="mybtnn">read more</button>
+    </div>
+    <div class="box3">
+        <p class="txt5">HELLO GUYS THANK YOU <BR> PINNE PADIIKANDE NJMAK GUYSSNCOMEOOONNNNNNN!!!!!!!!<br><br><br><br><br>done by anshh<br><br><br><br><br><br><br><br><br><br>     <span class="sp1">thank you</span></p>
+    </div>
+    
+      
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+   <script>
+    function btn(){
+        var first=document.getElementById("first")
+        var second=document.getElementById("second")
+        var button=document.getElementById("mybtn")
+        if(first.style.display==="none"){
+            first.style.display="inline";
+            button.innerHTML="Read More";
+            second.style.display="none";
+        }else{
+            first.style.display="none";
+            button.innerHTML="Read Less";
+            second.style.display="inline";
+        }
+           
+    }
+
+    function btnn(){
+        var first=document.getElementById("firsts")
+        var second=document.getElementById("seconds")
+        var button=document.getElementById("mybtnn")
+        if(first.style.display==="none"){
+            first.style.display="inline";
+            button.innerHTML="Read More";
+            second.style.display="none";
+        }else{
+            first.style.display="none";
+            button.innerHTML="Read Less";
+            second.style.display="inline";
+        }
+           
+    }
+   </script>
+   
+
+</body>
+</html>

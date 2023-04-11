@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+
+ 
+ 
+
+ p{
+    color: #28282b;
+    font-family:Copperplate Gothic Light;
+     font-size: 40px;
+     float: left;margin-left: 10%;
+     margin-top: 60px;
+
+    }
+    .one{
+        color: orange;
+        font-family: Freestyle Script;
+        font-size: 85px;
+    }
+    .box{
+        width: 300px;
+        height: 400px;
+        background-color: #28282b;
+        float: left;
+        margin-top: 335px;
+        margin-left: -600px;
+        box-shadow:  0 2px 4px rgba(0, 0, 0, .4), 0 8px 16px rgba(0, 0, 0, .4);
+         transition: 0.3s;
+         cursor: pointer;
+         border-radius: 7px;
+         z-index: -1;
+
+         
+    }
+    .box:hover{
+        box-shadow:  0 2px 4px rgba(0, 0, 0, 1.4), 0 8px 16px rgba(0, 0, 0, 1.4);
+        transition: 0.3s;
+        
+    }
+    .txt1{
+        color: beige;
+        font-family: Copperplate Gothic Light;
+        font-weight: 500;
+        float: left;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .img{
+        width: 200px;
+        float: left;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 47px;
+        margin-top: 10px;
+        box-shadow:0 2px 4px rgba(0, 0, 0, .4), 0 8px 16px rgba(0, 0, 0, .4) ;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .img:hover{
+        box-shadow:  0 2px 4px rgba(0, 0, 0, 1.4), 0 8px 16px rgba(0, 0, 0, 0.8);
+        transition: 0.3s;
+    }
+    .txt2{
+        color: beige;
+        font-family: Copperplate Gothic Light;
+        font-weight: 500;
+        float: left;
+        font-size: 9.6px;
+        margin-top: 20px;
+        margin-left: 11px;
+    }
+    #second{
+        display: none;
+    }
+    #mybtn{
+        font-size: 10px;
+        font-weight: 700;
+    height: 14px;
+    margin-top: 1px;
+    float: left;
+    width: 220px;
+    margin-left: 38px;
+    border-radius: 12px;
+    color:black;
+    background-color: beige;
+    border-color: solid #28282b;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#mybtn:hover{
+       color: white;
+       background-color: #28282b;
+       border-color:  beige;
+       transition: 0.3s;
+
+}
+.other-div{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    float: left;
+    z-index: -1;
+    position: absolute;
+    margin-top: 486px;
+}
+
+.box2{
+    width: 300px;
+    height: 400px;
+    background-color: #28282b;
+    float: left;
+    margin-top: 335px;
+    margin-left: -63px;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .4), 0 8px 16px rgba(0, 0, 0, .4);
+     transition: 0.3s;
+     cursor: pointer;
+     border-radius: 7px;
+     z-index: -1;
+
+     
+}
+.box2:hover{
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 1.4), 0 8px 16px rgba(0, 0, 0, 1.4);
+    transition: 0.3s;
+}
+.txt3{
+    color: beige;
+    font-family: Copperplate Gothic Light;
+    font-weight: 500;
+    float: left;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img2{
+    width: 200px;
+    float: left;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 47px;
+    margin-top: 10px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, .4), 0 8px 16px rgba(0, 0, 0, .4) ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.img2:hover{
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 1.4), 0 8px 16px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+.txt4{
+    color: beige;
+    font-family: Copperplate Gothic Light;
+    font-weight: 500;
+    float: left;
+    font-size: 9.6px;
+    margin-top: 20px;
+    margin-left: 11px;
+}
+
+#seconds{
+    display: none;
+}
+#mybtnn{
+    font-size: 10px;
+    font-weight: 700;
+height: 14px;
+margin-top: 1px;
+float: left;
+width: 220px;
+margin-left: 38px;
+border-radius: 12px;
+color:black;
+background-color: beige;
+border-color: solid #28282b;
+transition: 0.3s;
+cursor: pointer;
+}
+#mybtnn:hover{
+   color: white;
+   background-color: #28282b;
+   border-color:  beige;
+   transition: 0.3s;
+
+}
+.box3{
+    width: 300px;
+    height: 400px;
+    background-color: #28282b;
+    float: left;
+    margin-top: 335px;
+    margin-left: 190px;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .4), 0 8px 16px rgba(0, 0, 0, .4);
+     transition: 0.3s;
+     cursor: pointer;
+     border-radius: 7px;
+     z-index: -1;
+
+     
+}
+.box3:hover{
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 1.4), 0 8px 16px rgba(0, 0, 0, 1.4);
+    transition: 0.3s;
+}
+.txt5{
+    color: beige;
+    font-family: Copperplate Gothic Light;
+    font-weight: 500;
+    float: left;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 11px;
+}
+.sp1{
+    margin-left: 47px;
+}
