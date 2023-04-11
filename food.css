@@ -224,3 +224,58 @@ cursor: pointer;
 .sp1{
     margin-left: 47px;
 }
+@media screen and (max-width:769px){
+    .box{
+        margin-left: 90px;
+    padding: 2px;
+    font-size: 8px;
+    margin-top: 68px;
+}
+    }
+
+ @media screen and (max-width:769px){
+        .box2{
+            margin-left: 90px;
+        padding: 2px;
+        font-size: 8px;
+        margin-top: 100px;
+    }
+        }
+        @media screen and (max-width:769px){
+            .box3{
+                margin-left: 90px;
+            padding: 2px;
+            font-size: 8px;
+            margin-top: 109px;
+        }
+            }
+   
+.other-divvv{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    float: left;
+    z-index: -1;
+    position: absolute;
+    margin-top: 486px;
+
+}
+@media screen and (max-width:769px){
+    .other-divvv{
+       margin-top: 1012px;
+}
+    }
+.other-divv{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    float: left;
+    z-index: -1;
+    position: absolute;
+    margin-top: 486px;
+
+}@media screen and (max-width:769px){
+    .other-divv{
+       margin-top: 1523px;
+}
+    }
